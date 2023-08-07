@@ -1,47 +1,264 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap5/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet icon" type="text/css" href="css/style.css" media="screen">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
-	<title>Personal Cabinet</title>
+	<title>ТРЦ Миля</title>
 </head>
+
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="container">
-				<div class="row">
-
-				</div>
-			</div>
-		</header>
-
-		<main>
-			<section class="main-sec">
-				<div class="container">
-					<div class="row">
-						
+		<div class="wrapper__aside">
+			<aside>
+				<div class="aside-block">
+					<div class="aside">
+						<ul>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon1.svg" alt="">
+									О Нас
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon2.svg" alt="">
+									Как добраться
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon3.svg" alt="">
+									Схема ТРЦ
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon4.svg" alt="">
+									Новости
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon5.svg" alt="">
+									Магазины
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon6.svg" alt="">
+									Еда
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon7.svg" alt="">
+									Развлечения
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<img src="images/icons/menu-icon8.svg" alt="">
+									Услуги
+								</a>
+							</li>
+						</ul>
+	
+						<!-- begin aside__search -->
+						<div class="aside__search">
+							<form action="/search/index.php" class="form-inline my-2 my-lg-0">
+								<div>
+									<button type="submit" title="Поиск" name="s"><img src="images/icons/search-icon.svg" alt=""></button>
+									<input type="search" name="q" id="search" placeholder="Поиск">
+								</div>
+							</form>
+						</div>
+						<!-- end aside__search -->
+					</div>
+	
+					<div class="side-img">
+						<img src="images/couple-3.png" alt="">
 					</div>
 				</div>
-			</section>
-		</main>
+			</aside>
+		</div>
 
-		<footer class="footer">
-			<div class="container">
-				<div class="row">
-					
+		<div class="wrapper__content">
+			<div class="content-in">
+				<header class="header">
+					<div class="head__logo">
+						<a href="#!"><img src="images/icons/logo.png" alt=""></a>
+					</div>
+				</header>
+	
+				<div class="main__sec">
+					<div class="main__block">
+						<img src="images/main-img.jpg" alt="">
+					</div>
 				</div>
+	
+				<section class="index-news">
+					<div class="title">
+						<h2>Новости и акции</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="index-news__block">
+								<a href="#!" class="news-block__img"><img src="images/news-img1.jpg" alt=""></a>
+								<div class="news-block__inner">
+									<div class="news-head">
+										<a href="#!" class="news-block__title">Открытие магазина adamas</a>
+										<p>Скидки до 55% на золотые изделия в ADAMAS!</p>
+									</div>
+									
+									<div class="news-ftr">
+										<span>06.06.2023</span>
+										<a href="#!" class="news-block__logo"><img src="images/news-logo1.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="index-news__block">
+								<a href="#!" class="news-block__img"><img src="images/news-img2.jpg" alt=""></a>
+								<div class="news-block__inner">
+									<div class="news-head">
+										<a href="#!" class="news-block__title">Открытие магазина Askona</a>
+										<p>Скидки до 55%</p>
+									</div>
+									
+									<div class="news-ftr">
+										<span>06.06.2023</span>
+										<a href="#!" class="news-block__logo"><img src="images/news-logo2.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<div class="col-lg-4">
+							<div class="index-news__block">
+								<a href="#!" class="news-block__img"><img src="images/news-img3.jpg" alt=""></a>
+								<div class="news-block__inner">
+									<div class="news-head">
+										<a href="#!" class="news-block__title">Открытие магазина Globus</a>
+										<p>Скидки до 55% на золотые </p>
+									</div>
+									
+									<div class="news-ftr">
+										<span>06.06.2023</span>
+										<a href="#!" class="news-block__logo"><img src="images/news-logo3.png" alt=""></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+	
+				<section class="shop-fun">
+					<div class="title">
+						<h2>Магазины и развлечения</h2>
+					</div>
+	
+					<div class="shop-tags">
+						<a href="#!" class="active">Все</a>
+						<a href="#!">Еда</a>
+						<a href="#!">Кинотеатр</a>
+						<a href="#!">Магазины</a>
+						<a href="#!">Мероприятия</a>
+						<a href="#!">Развлечения</a>
+						<a href="#!">Услуги</a>
+					</div>
+	
+					<div class="shop-block">
+						<div class="row">
+							<div class="col-lg-4 shop-col">
+								<a href="#!" class="shop-item">
+									<img src="images/shop-logo1.png" alt="">
+									<span>Фитнес-клуб DDX</span>
+								</a>
+							</div>
+							<div class="col-lg-4 shop-col">
+								<a href="#!" class="shop-item">
+									<img src="images/shop-logo2.png" alt="">
+									<span>Спортмастер</span>
+								</a>
+							</div>
+							<div class="col-lg-4 shop-col">
+								<a href="#!" class="shop-item">
+									<img src="images/shop-logo3.png" alt="">
+									<span>Детский мир</span>
+								</a>
+							</div>
+	
+							<div class="col-lg-4 shop-col">
+								<a href="#!" class="shop-item">
+									<img src="images/shop-logo1.png" alt="">
+									<span>Фитнес-клуб DDX</span>
+								</a>
+							</div>
+							<div class="col-lg-4 shop-col">
+								<a href="#!" class="shop-item">
+									<img src="images/shop-logo2.png" alt="">
+									<span>Спортмастер</span>
+								</a>
+							</div>
+							<div class="col-lg-4 shop-col">
+								<a href="#!" class="shop-item">
+									<img src="images/shop-logo3.png" alt="">
+									<span>Детский мир</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
-		</footer>
-	</div>
 
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="libs/bootstrap5/bootstrap.min.js"></script>
-	<script src="js/swiper-bundle.min.js"></script>
-	<script src="js/script.js"></script>
+			<footer class="footer">
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="ftr-logo">
+							<a href="#!" class="ftr-link"><img src="images/icons/ftr-logo.png" alt=""></a>
+							<span>Ежедневно с 10:00 до 22:00</span>
+							<div class="ftr-social">
+								<a href="#!"><img src="images/icons/vk.png" alt=""></a>
+								<a href="#!"><img src="images/icons/wt.png" alt=""></a>
+								<a href="#!"><img src="images/icons/tg.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-2 ftr-center-col">
+						<div class="ftr-menu">
+							<a href="#!">Контакты</a>
+							<a href="#!">Парковка</a>
+							<a href="#!">Схема ТРЦ</a>
+							<a href="#!">Арендаторам</a>
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="ftr-text">
+							<p>Москва, ул. Дубравная, д. 51, стр. 1</p>
+							<a href="#!">Схема проезда</a>
+							<p>© 2023 ТРЦ «Митино Парк»</p>
+							<a href="#!">Политика конфидециальности</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/all.min.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="libs/bootstrap5/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/script.js"></script>
 </body>
+
 </html>
